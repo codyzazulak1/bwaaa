@@ -1,0 +1,26 @@
+.bwa {
+  height: 300px;
+  width: 300px;
+  background-image: url("pic.png");
+  border-radius: 20%;
+  margin: 0 auto;
+  color: white;
+  text-align : center;
+  line-height: 330px;
+  font-size: 4.5em;
+  transform: rotate(45deg);
+  margin-top: 10%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.count {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10%;
+  font-style: ;
+}
