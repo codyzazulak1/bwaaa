@@ -5,6 +5,7 @@ $(document).ready(function() {
   
   if ( isNaN(cook) ) {
     counter = 0;
+    $(".count").text("BWAAA x " + counter);
   } else {
     counter = cook;
     $(".count").text("BWAAA x " + counter); 
