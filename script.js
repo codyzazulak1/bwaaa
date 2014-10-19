@@ -1,12 +1,12 @@
 $(document).ready(function() {
   var snd = new Audio("sample.mp3");
   var counter = 0;
-  var value = parseInt($.cookie("bwa"));
+  var cook = parseInt($.cookie("bwa"));
   
-  if ( isNaN(value) ) {
+  if ( isNaN(cook) ) {
     counter = 0;
   } else {
-    counter = value;
+    counter = cook;
     $(".count").text("BWAAA x " + counter); 
   }
 
@@ -17,7 +17,12 @@ $(document).ready(function() {
     $(this).fadeIn(50);
     counter += 1;
     $.cookie('bwa', counter);
-    console.log("BWAAA x " + $.cookie("bwa") );
+    $(".count").text("BWAAA x " + counter);
+  });
+
+  $(".reset").click(function() {
+    counter = 0;
+    $.cookie('bwa', counter);
     $(".count").text("BWAAA x " + counter);
   });
 });
