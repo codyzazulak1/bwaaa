@@ -14,6 +14,7 @@ $(document).ready(function() {
   $(".bwa").click(function() {
     snd.play();
     snd.currentTime=0;
+    $(".horn").fadeTo(50, 0.25);
     $(this).fadeOut(50);
     $(this).fadeIn(50);
     counter += 1;

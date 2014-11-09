@@ -1,12 +1,13 @@
 .bwa {
   height: 300px;
   width: 300px;
-  background-image: url("pic.png");
+  background-image: url("file1.gif");
+  background-size: 100%;
   border-radius: 20%;
   margin: 0 auto;
-  color: white;
+  color: black;
   text-align : center;
-  line-height: 330px;
+  line-height: 410px;
   font-size: 4.5em;
   margin-top: 10%;
   -webkit-touch-callout: none;
@@ -15,6 +16,10 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.horn {
+  border-radius: 20%;
 }
 
 .count {
