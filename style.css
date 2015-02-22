@@ -9,7 +9,7 @@
   text-align : center;
   line-height: 410px;
   font-size: 4.5em;
-  margin-top: 10%;
+  margin-top: 04%;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -32,4 +32,43 @@
   margin: 0 auto;
   text-align: center;
   margin-top: 3%;
+}
+
+a.trill:link {
+  margin: 0 auto;
+  font-size: 18px;
+  font-family: helvetica;
+  color: black;
+  text-decoration: none;
+}
+
+a.trill:visited {
+  margin: 0 auto;
+  font-size: 18px;
+  font-family: helvetica;
+  color: black;
+  text-decoration: none;
+}
+
+a.trill:hover {
+  margin: 0 auto;
+  font-size: 18px;
+  font-family: helvetica;
+  color: black;
+  text-decoration: none;
+}
+
+a.trill:active {
+  margin: 0 auto;
+  font-size: 18px;
+  font-family: helvetica;
+  color: black;
+  text-decoration: none;
+}
+
+.trill {
+  margin: 0 auto;
+  font-family: helvetica;
+  text-align: center;
+  font-size: 25px;
 }
