@@ -1,21 +1,7 @@
-html, body {
-  padding: 0;
-  padding-top: 10;
-  margin: 0;
-  background-color: black;
-}
-
-hr {
-  margin-left: 10;
-  margin-right: 10;
-}
-
-.space {
-  margin: 0;
+body {
   background-image: url("space.gif") ;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  /*background-color: black;*/
 }
 
 .bwa {
@@ -55,34 +41,22 @@ hr {
   margin-top: 3%;
 }
 
-a.trill:link {
-  margin: 0 auto;
-  font-size: 18px;
-  font-family: helvetica;
+.trill:link {
   color: white;
   text-decoration: none;
 }
 
-a.trill:visited {
-  margin: 0 auto;
-  font-size: 18px;
-  font-family: helvetica;
+.trill:visited {
   color: white;
   text-decoration: none;
 }
 
-a.trill:hover {
-  margin: 0 auto;
-  font-size: 18px;
-  font-family: helvetica;
+.trill:hover {
   color: white;
   text-decoration: none;
 }
 
-a.trill:active {
-  margin: 0 auto;
-  font-size: 18px;
-  font-family: helvetica;
+.trill:active {
   color: white;
   text-decoration: none;
 }
