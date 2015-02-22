@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+}
+
 .bwa {
   height: 300px;
   width: 300px;
@@ -26,6 +30,7 @@
   margin: 0 auto;
   text-align: center;
   margin-top: 10%;
+  color: white;
 }
 
 .reset {
@@ -38,7 +43,7 @@ a.trill:link {
   margin: 0 auto;
   font-size: 18px;
   font-family: helvetica;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -46,7 +51,7 @@ a.trill:visited {
   margin: 0 auto;
   font-size: 18px;
   font-family: helvetica;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -54,7 +59,7 @@ a.trill:hover {
   margin: 0 auto;
   font-size: 18px;
   font-family: helvetica;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -62,7 +67,7 @@ a.trill:active {
   margin: 0 auto;
   font-size: 18px;
   font-family: helvetica;
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
