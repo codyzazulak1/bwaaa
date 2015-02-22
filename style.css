@@ -1,5 +1,5 @@
 body {
-  background-image: url("space.gif") ;
+  background-image: url("bg.jpg") ;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -32,6 +32,7 @@ body {
   margin: 0 auto;
   text-align: center;
   margin-top: 10%;
+  background-color: red;
   color: white;
 }
 
@@ -61,7 +62,13 @@ body {
   text-decoration: none;
 }
 
+.trillbox {
+  height: 20px;
+  background-color: black;
+}
+
 .trill {
+  background-color: black;
   margin: 0 auto;
   font-family: helvetica;
   text-align: center;
