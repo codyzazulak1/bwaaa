@@ -2,15 +2,6 @@ $(document).ready(function() {
   var snd = new Audio("sample.mp3");
   var counter = 0;
   var cook = parseInt($.cookie("bwa"));
-  var randomNum = Math.floor((Math.random() * 3) + 1);
-
-  if (randomNum == 1) {
-    $('body').css('background-image', 'url(bg.jpg )');
-  } else if (randomNum == 2) {
-    $('body').css('background-image', 'url(bg2.jpg)');
-  } else {
-    $('body').css('background-image', 'url(bg3.jpg)');
-  }
   
   if ( isNaN(cook) ) {
     counter = 0;
