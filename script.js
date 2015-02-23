@@ -1,3 +1,9 @@
+$(window).load(function () {
+  $('body').hide();
+  $('body').fadeIn(1000);
+  return false;
+});
+
 $(document).ready(function() {
   var snd = new Audio("sample.mp3");
   var counter = 0;
