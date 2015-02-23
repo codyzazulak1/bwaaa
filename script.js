@@ -1,10 +1,5 @@
-$(window).load(function () {
-  $('body').hide();
-  $('body').fadeIn(1000);
-  return false;
-});
-
 $(document).ready(function() {
+  $('body').hide();
   var snd = new Audio("sample.mp3");
   var counter = 0;
   var cook = parseInt($.cookie("bwa"));
@@ -35,4 +30,9 @@ $(document).ready(function() {
     $(".count").text("# # BWAAA x " + counter + " # #");
   });
 
+});
+
+$(window).load(function () {
+  $('body').fadeIn(1000);
+  return false;
 });
