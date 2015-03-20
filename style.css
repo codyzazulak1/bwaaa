@@ -1,7 +1,5 @@
 body {
-  background-image: url("bg3.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-color: black;
 }
 
 .bwa {
@@ -32,7 +30,6 @@ body {
   margin: 0 auto;
   text-align: center;
   margin-top: 10%;
-  background-color: red;
   color: white;
 }
 
@@ -44,7 +41,7 @@ body {
 }
 
 button {
-  width: 100%;
+  /*width: 100%;*/
 }
 
 .trill:link {
@@ -71,12 +68,11 @@ button {
   padding-top: 6px;
   text-align: center;
   margin: 0 auto;
-  background-color: black;
 }
 
 .trill {
-  background-color: black;
   font-family: helvetica;
+  color: white;
   text-align: center;
   font-size: 35px;
 }
